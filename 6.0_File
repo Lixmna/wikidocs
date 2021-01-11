@@ -1,2 +1,0 @@
-f = open('C:\Users\Lixmna\Desktop\python_break\wikidocs\Python_for_Fun')
-f.read()
