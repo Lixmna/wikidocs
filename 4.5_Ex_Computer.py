@@ -3,8 +3,10 @@ def pro2com(input,computer) :
     sumout = []
     for i in range(computer) :
         outlist.append([])
-        sumout.append(0)
-    
+        sumout.append(0)    
+
+# for문 돌리면서 i가 사용되지 않았을때 warning 발생하는데 상관없는지
+
     input.sort(reverse=True)
 
     for time in input :
